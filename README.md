@@ -1,5 +1,5 @@
 # FATES_Logging_Manuscript
-steps to check out codes, and driving/preprocessing/analysis scripts used in the FATES Logging Manuscript
+Steps to check out codes, and driving/preprocessing/analysis scripts used in the FATES Logging Manuscript
 
 ## Repository structure
 ---scripts 
@@ -52,7 +52,7 @@ We provide detailed notes on running the logging experiments on PNNL's CONSTANCE
     ncl check_PFTcomposition_sim_ts4sc_bg.ncl 
 
 ## Who do I talk to?
-    maoyi.huang at pnnl.gov or huangmy at gmail.com
+   Maoyi Huang (huangmy at gmail.com)
 
 ## Reference
 Huang, M., Xu, Y., Longo, M., Keller, M., Knox, R., Koven, C., and Fisher, R.: Assessing impacts of selective logging on water, energy, and carbon budgets and ecosystem dynamics in Amazon forests using the Functionally Assembled Terrestrial Ecosystem Simulator, Biogeosciences Discuss., https://doi.org/10.5194/bg-2019-129, in review, 2019.
