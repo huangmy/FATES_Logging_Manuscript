@@ -2,9 +2,7 @@
 steps to check out codes, and driving/preprocessing/analysis scripts used in the FATES Logging Manuscript
 
 ## Repository structure
----scripts | ---user_mods
-
-
+---scripts 
 
 ## Tutorial to configure the CLM(FATES)-logging experiments on CONSTANCE
 We provide detailed notes on running the logging experiments on PNNL's CONSTANCE cluster.
@@ -21,9 +19,24 @@ We provide detailed notes on running the logging experiments on PNNL's CONSTANCE
     cd $CLM_SRC_DIR
     ./manage_externals/checkout_externals
 
+### Download FATES code, please check for FATES documentation
+
+### Downlaod input and output datasets
+    Click the link: https://drive.google.com/drive/folders/1ufnxkE2aw6bueLG7LttR-N8UrStLgCqZ?usp=sharing
+    Unzip and untar inputdata.tar.gz and outputdata.tar.gz in $BASE_DIR
+
 ### Configure a user_defined single point CLM5 simulation
-    cd $BASE_DIR/scripts/
-    bash create_1x1_Illinois_Rotation_clm5_constance.sh
+    cd $BASE_DIR/scripts/shell
+    bash create_fates-clm_1x1pt_km83_intact_spinup.sh
+    bash create_fates-clm_1x1pt_km83_intact_sim.sh 
+    bash create_fates-clm_1x1pt_km83_logging.sh
+
+### Extract and analyze your simulations
+    cd $BASE_DIR/scripts/ncl/postproc
+    ncl extract_outputs.ncl
+    ncl plot_Carbonflux_km83_bg.ncl
+    ncl plot_Carbonpools_km83_bg.ncl
+    ncl plot_energywater_km83_bg.ncl
 
 ## Who do I talk to?
     maoyi.huang at pnnl.gov
