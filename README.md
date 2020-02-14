@@ -26,7 +26,7 @@ We provide detailed notes on running the logging experiments on PNNL's CONSTANCE
 #### Check out FATES codes, specific branch used is https://github.com/huangmy/fates/tree/fix_export_frac, with minor update from M. Huang to fates release tag sci.1.27.2_api.7.3.0. The update has been integrated to newer fates releases
     ./manage_externals/checkout_externals
 
-### Downlaod input and output datasets
+### Download input and output datasets
     Click the link: https://drive.google.com/drive/folders/1ufnxkE2aw6bueLG7LttR-N8UrStLgCqZ?usp=sharing
     Unzip and untar inputdata.tar.gz and outputdata.tar.gz in $BASE_DIR
 
