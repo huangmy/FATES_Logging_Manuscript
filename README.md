@@ -55,8 +55,8 @@ We provide detailed notes on running the logging experiments on PNNL's CONSTANCE
    Maoyi Huang (huangmy at gmail.com)
 
 ## Reference
-Huang, M., Xu, Y., Longo, M., Keller, M., Knox, R., Koven, C., and Fisher, R.: Assessing impacts of selective logging on water, energy, and carbon budgets and ecosystem dynamics in Amazon forests using the Functionally Assembled Terrestrial Ecosystem Simulator, Biogeosciences Discuss., https://doi.org/10.5194/bg-2019-129, in review, 2019.
+Huang, M., Xu, Y., Longo, M., Keller, M., Knox, R., Koven, C., and Fisher, R.: Assessing impacts of selective logging on water, energy, and carbon budgets and ecosystem dynamics in Amazon forests using the Functionally Assembled Terrestrial Ecosystem Simulator, Biogeosciences, Biogeosciences, 17, 1–25, 2020, https://doi.org/10.5194/bg-17-1-2020.
 
 
 ## Acknowledgment
-This research was supported by The Next-Generation Ecosystem Experiments – Tropics project through the Terrestrial Ecosystem Science (TES) program within US Department of Energy’s Office of Biological and Environmental Research (BER).
+This research was supported by The Next-Generation Ecosystem Experiments – Tropics project through the Terrestrial Ecosystem Science (TES) program within US Department of Energy’s Office of Biological and Environmental Research (BER). The Pacific Northwest National Laboratory is operated by the DOE and by the Battelle Memorial Institute under contract DE-AC05-76RL01830. LBNL is managed and operated by the Regents of the University of California under prime contract no. DE-AC02-05CH11231.  The research carried out at the Jet Propulsion Laboratory, California Institute of Technology, was under a contract with the National Aeronautics and Space Administration (80NM0018D004). Marcos Longo was supported by the Sa˜o Paulo State Research Foundation (FAPESP, grant 2015/07227-6) and by the NASA Postdoctoral Program, administered by the Universities Space Research Association under contract with NASA (80NM0018D004). Rosie A. Fisher acknowledges the National Science Foundation via their support of the National Center for Atmospheric Research. 
